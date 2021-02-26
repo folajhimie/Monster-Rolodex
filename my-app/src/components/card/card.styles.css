@@ -1,0 +1,29 @@
+.card-container {
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    padding-bottom: 20px;
+    
+   
+}
+.card-container:hover{
+    transform: scale(1.05);
+}
+p{
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 25px;
+    color: #fb6161;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
+h2{
+    color: rgb(130, 0, 61);
+}
